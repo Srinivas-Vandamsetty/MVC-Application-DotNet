@@ -14,11 +14,11 @@ namespace MVC_Application.Controllers
             // Simulating a list of cars fetched from the database
             var cars = new List<Car>
             {
-                new Car { Make = "Toyota", Model = "Camry", Year = 2021, Price = 25000 },
-                new Car { Make = "Honda", Model = "Civic", Year = 2020, Price = 22000 },
-                new Car { Make = "Ford", Model = "Mustang", Year = 2022, Price = 35000 },
-                new Car { Make = "Chevrolet", Model = "Malibu", Year = 2021, Price = 24000 },
-                new Car { Make = "BMW", Model = "3 Series", Year = 2021, Price = 40000 }
+                new Car { Make = "Toyota", Model = "Innova", Year = 2023, Price = 1500000 },
+                new Car { Make = "Honda", Model = "City", Year = 2024, Price = 1100000 },
+                new Car { Make = "Tata", Model = "Nexon", Year = 2022, Price = 1300000 },
+                new Car { Make = "Suzuki", Model = "Swift", Year = 2023, Price = 800000 },
+                new Car { Make = "Mahindra", Model = "Thar", Year = 2024, Price = 2400000 }
             };
 
             // Passing the model to the view
