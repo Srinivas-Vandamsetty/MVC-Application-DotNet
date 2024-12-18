@@ -1,0 +1,25 @@
+﻿@model IEnumerable<MVC_Application.Models.Car>
+
+<h1>Car List</h1>
+
+<table border="1" cellpadding="5">
+    <thead>
+        <tr>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model)
+        {
+            <tr>
+                <td>@car.Make</td>
+                <td>@car.Model</td>
+                <td>@car.Year</td>
+                <td>@car.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
